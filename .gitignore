@@ -1,0 +1,54 @@
+# Binaries for programs and plugins
+deflot
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Go workspace file
+go.work
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Config files with API keys (user-specific)
+.deflot/
+config.yml
+
+# Output directories
+targets/
+results/
+deflot_results_*/
+output/
+*.log
+
+# Test files
+test_targets.txt
+testlist.txt
+test_*.txt
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.old
+
+# Web UI build artifacts (if added later)
+internal/server/ui/node_modules/
+internal/server/ui/dist/
+internal/server/ui/build/
+
+# OS specific
+Thumbs.db
