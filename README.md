@@ -10,7 +10,7 @@
 
 *Aggressively discover, deduplicate, and classify URLs from multiple passive sources*
 
-[Features](#-features) • [Installation](#-installation) • [Quick Start](#-quick-start) • [Usage](#-usage) • [Documentation](#-documentation)
+[Features](#-features) • [Installation](#-installation) • [Quick Start](#-quick-start) • [Web Interface](#-web-interface-mode) • [Usage](#-usage) • [Documentation](#-documentation)
 
 </div>
 
@@ -177,6 +177,18 @@ deflot -d example.com --json --stdout | \
   nuclei -t ~/nuclei-templates/
 ```
 
+### 5. Web Interface Mode
+
+Launch the visual hacker interface:
+
+```bash
+deflot server
+# Open browser to http://127.0.0.1:8080
+# Use visual controls for interactive reconnaissance
+```
+
+Perfect for demos, training, and visual monitoring of scans!
+
 ---
 
 ## 📖 Usage
@@ -208,10 +220,107 @@ API keys are stored in `~/.deflot/config.yml`
 
 #### Web Interface
 
+Launch the visual web interface for interactive reconnaissance:
+
 ```bash
+# Start with default settings (localhost:8080)
 deflot server
-# Opens web UI at http://localhost:8080
+
+# Custom port
+deflot server --addr 127.0.0.1:3000
+
+# Then open http://127.0.0.1:8080 in your browser
 ```
+
+**IMPORTANT:** The web server only listens on localhost (127.0.0.1) for security. Never expose it to external networks.
+
+---
+
+## 🌐 Web Interface Mode
+
+DEFLOT includes a professional, Hollywood-style hacker interface for visual reconnaissance operations.
+
+### Starting the Server
+
+```bash
+# Default: http://127.0.0.1:8080
+deflot server
+
+# Custom address/port
+deflot server --addr 127.0.0.1:3000
+```
+
+Then open your browser to the displayed URL.
+
+### Web UI Features
+
+<table>
+<tr>
+<td width="50%">
+
+**🎯 Visual Controls**
+- Target domain input
+- Weapon toggles:
+  - **WILDCARD** - Subdomain enumeration
+  - **SENSITIVE** - Secret/config filtering
+  - **PARAMS** - Parameter extraction
+  - **JAVASCRIPT** - JS file filtering
+  - **EXCLUDE LIBS** - Remove common libraries
+- Worker concurrency slider
+- Morphing START RECON / STOP SCAN button
+
+</td>
+<td width="50%">
+
+**📺 Live Output Stream**
+- Real-time WebSocket updates
+- Color-coded classifications:
+  - 🟢 **Green** - System messages
+  - 🔴 **Red** - Errors
+  - 🟡 **Yellow** - JavaScript files
+  - 🔴 **Bold Red** - Secrets detected
+  - 🔵 **Cyan** - Parameter URLs
+- Auto-scrolling terminal
+- Clear & Copy buttons
+- Live status indicator
+
+</td>
+</tr>
+</table>
+
+### How to Use
+
+1. **Start the server:**
+   ```bash
+   deflot server
+   ```
+
+2. **Open browser:** Navigate to `http://127.0.0.1:8080`
+
+3. **Configure scan:**
+   - Enter target (e.g., `example.com`)
+   - Toggle desired weapons/filters
+   - Adjust workers (default: 20)
+
+4. **Execute:**
+   - Click **START RECON** to begin
+   - Watch real-time output stream
+   - Click **STOP SCAN** to abort anytime
+
+5. **Results:**
+   - Output streams live to browser
+   - Results still saved to disk (same as CLI)
+   - Use Copy button to extract findings
+
+### Web Mode Best Practices
+
+- **Security:** Always use `127.0.0.1` (localhost only)
+- **Performance:** Web mode adds minimal overhead (~5%)
+- **Use Cases:** Demos, training, visual monitoring
+- **Automation:** Use CLI for scripting and CI/CD
+- **Mobile:** Works on mobile browsers via localhost
+
+
 
 ---
 
