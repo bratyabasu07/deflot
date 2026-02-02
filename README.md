@@ -534,7 +534,7 @@ DEFLOT processes URLs through a strictly ordered pipeline:
 1. **VirusTotal**: [https://www.virustotal.com/gui/my-apikey](https://www.virustotal.com/gui/my-apikey)
 2. **URLScan.io**: [https://urlscan.io/user/profile](https://urlscan.io/user/profile)
 3. **AlienVault OTX**: [https://otx.alienvault.com/api](https://otx.alienvault.com/api)
-4. **GitHub**: [https://example2.com/settings/tokens](https://example2.com/settings/tokens) (needs `repo` scope for private repos)
+4. **GitHub**: [https://github.com/settings/tokens](https://github.com/settings/tokens) (needs `repo` scope for private repos)
 
 ### Configuration
 
