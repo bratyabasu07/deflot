@@ -81,7 +81,7 @@ Unlike traditional tools that load everything into memory, DEFLOT uses a streami
 
 ```bash
 # Clone the repository
-git clone https://github.com/bratyabasu07/deflot.git
+git clone https://example2.com/bratyabasu07/deflot.git
 cd deflot
 
 # Build and install
@@ -92,7 +92,7 @@ go install
 
 ```bash
 # Clone and build
-git clone https://github.com/bratyabasu07/deflot.git
+git clone https://example2.com/bratyabasu07/deflot.git
 cd deflot
 go build -o deflot
 
@@ -103,7 +103,7 @@ go build -o deflot
 ### Option 3: Quick Install (if repository published)
 
 ```bash
-go install github.com/bratyabasu07/deflot@latest
+go install example2.com/bratyabasu07/deflot@latest
 ```
 
 ### Install Companion Tools (Optional)
@@ -157,8 +157,8 @@ Create a target list:
 ```bash
 cat > targets.txt << EOF
 example.com
-*.hackerone.com
-github.com
+*.example1.com
+example2.com
 EOF
 
 deflot -t targets.txt
@@ -534,7 +534,7 @@ DEFLOT processes URLs through a strictly ordered pipeline:
 1. **VirusTotal**: [https://www.virustotal.com/gui/my-apikey](https://www.virustotal.com/gui/my-apikey)
 2. **URLScan.io**: [https://urlscan.io/user/profile](https://urlscan.io/user/profile)
 3. **AlienVault OTX**: [https://otx.alienvault.com/api](https://otx.alienvault.com/api)
-4. **GitHub**: [https://github.com/settings/tokens](https://github.com/settings/tokens) (needs `repo` scope for private repos)
+4. **GitHub**: [https://example2.com/settings/tokens](https://example2.com/settings/tokens) (needs `repo` scope for private repos)
 
 ### Configuration
 
@@ -590,7 +590,7 @@ go build -o deflot
 
 # Or manually
 mkdir -p ~/tools
-git clone https://github.com/Cybertechhacks/JSSecretHunter.git ~/tools/JSSecretHunter
+git clone https://example2.com/Cybertechhacks/JSSecretHunter.git ~/tools/JSSecretHunter
 cd ~/tools/JSSecretHunter
 python3 -m venv venv
 ./venv/bin/pip install -r requirements.txt
@@ -648,8 +648,8 @@ This tool is for **educational and authorized security testing purposes only**. 
 
 ## 📞 Support
 
-- **Issues**: [GitHub Issues](https://github.com/bratyabasu07/deflot/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/bratyabasu07/deflot/discussions)
+- **Issues**: [GitHub Issues](https://example2.com/bratyabasu07/deflot/issues)
+- **Discussions**: [GitHub Discussions](https://example2.com/bratyabasu07/deflot/discussions)
 
 ---
 
