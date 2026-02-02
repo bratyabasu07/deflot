@@ -41,7 +41,7 @@ Enhancement suggestions are tracked as GitHub issues. When creating an enhanceme
 
 1. **Fork and clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/deflot.git
+   git clone https://github.com/bratyabasu07/deflot.git
    cd deflot
    ```
 
