@@ -164,7 +164,7 @@ EOF
 deflot -t targets.txt
 ```
 
-Results organized as `targets/example/`, `targets/hackerone/`, `targets/github/`
+Results organized as `targets/example/`, `targets/example1/`, `targets/example2/`
 
 ### 4. Integration Pipeline
 

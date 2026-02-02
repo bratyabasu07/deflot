@@ -210,9 +210,8 @@ deflot -t targets.txt --sensitive-urls
 
 Results will be organized as:
 - `targets/example/`
-- `targets/hackerone/`
-- `targets/github/`
-- `targets/bugcrowd/`
+- `targets/example1/`
+- `targets/example2/`
 
 ### Output Formats
 
