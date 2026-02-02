@@ -5,7 +5,7 @@ import (
 	"strings"
 	"sync/atomic"
 
-	"github.com/elliot/deflot/internal/filters"
+	"github.com/bratyabasu07/deflot/internal/filters"
 )
 
 // Flasher handles "first-time" notifications for specific categories.

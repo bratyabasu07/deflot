@@ -4,7 +4,7 @@ import (
 	"regexp"
 	"strings"
 
-	appCtx "github.com/elliot/deflot/internal/context"
+	appCtx "github.com/bratyabasu07/deflot/internal/context"
 )
 
 // Categories

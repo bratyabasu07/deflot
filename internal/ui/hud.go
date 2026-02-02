@@ -7,8 +7,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/elliot/deflot/internal/sources"
-	"github.com/elliot/deflot/internal/summary"
+	"github.com/bratyabasu07/deflot/internal/sources"
+	"github.com/bratyabasu07/deflot/internal/summary"
 )
 
 // StartHUD starts the minimal status display.

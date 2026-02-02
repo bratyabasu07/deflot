@@ -8,8 +8,8 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/elliot/deflot/internal/config"
-	appCtx "github.com/elliot/deflot/internal/context"
+	"github.com/bratyabasu07/deflot/internal/config"
+	appCtx "github.com/bratyabasu07/deflot/internal/context"
 )
 
 type GitHub struct {

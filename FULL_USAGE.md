@@ -6,7 +6,7 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/elliot/deflot.git
+git clone https://github.com/bratyabasu07/deflot.git
 cd deflot
 
 # Install to your Go bin directory
@@ -20,7 +20,7 @@ deflot --version
 
 ```bash
 # Clone and build
-git clone https://github.com/elliot/deflot.git
+git clone https://github.com/bratyabasu07/deflot.git
 cd deflot
 go build -o deflot
 
@@ -32,7 +32,7 @@ go build -o deflot
 
 ```bash
 # Install latest release
-go install github.com/elliot/deflot@latest
+go install github.com/bratyabasu07/deflot@latest
 
 # Verify installation
 deflot --version

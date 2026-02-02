@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/elliot/deflot/internal/server"
+	"github.com/bratyabasu07/deflot/internal/server"
 
 	"github.com/spf13/cobra"
 )

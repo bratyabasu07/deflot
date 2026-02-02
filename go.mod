@@ -1,4 +1,4 @@
-module github.com/elliot/deflot
+module github.com/bratyabasu07/deflot
 
 go 1.24.6
 

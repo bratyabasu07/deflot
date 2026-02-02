@@ -94,4 +94,4 @@ Planned features for upcoming releases:
 
 ---
 
-[1.0.0]: https://github.com/elliot/deflot/releases/tag/v1.0.0
+[1.0.0]: https://github.com/bratyabasu07/deflot/releases/tag/v1.0.0

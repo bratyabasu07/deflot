@@ -8,8 +8,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/elliot/deflot/internal/config"
-	appCtx "github.com/elliot/deflot/internal/context"
+	"github.com/bratyabasu07/deflot/internal/config"
+	appCtx "github.com/bratyabasu07/deflot/internal/context"
 )
 
 // Source is the interface that all modular sources must implement.
