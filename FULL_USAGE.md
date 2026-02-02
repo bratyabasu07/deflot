@@ -6,7 +6,7 @@
 
 ```bash
 # Clone the repository
-git clone https://example2.com/bratyabasu07/deflot.git
+git clone https://github.com/bratyabasu07/deflot.git
 cd deflot
 
 # Install to your Go bin directory
@@ -20,7 +20,7 @@ deflot --version
 
 ```bash
 # Clone and build
-git clone https://example2.com/bratyabasu07/deflot.git
+git clone https://github.com/bratyabasu07/deflot.git
 cd deflot
 go build -o deflot
 
@@ -32,7 +32,7 @@ go build -o deflot
 
 ```bash
 # Install latest release
-go install example2.com/bratyabasu07/deflot@latest
+go install github.com/bratyabasu07/deflot@latest
 
 # Verify installation
 deflot --version
@@ -81,7 +81,7 @@ DEFLOT integrates with multiple threat intelligence sources. While it works with
    - Completely free service
 
 4. **GitHub** (Required for GitHub source)
-   - Visit: https://example2.com/settings/tokens
+   - Visit: https://github.com/settings/tokens
    - Generate personal access token
    - Required scopes: `repo` (for private repos), `public_repo` (for public)
 
@@ -584,7 +584,7 @@ go build -o deflot
 ```bash
 # Install manually
 mkdir -p ~/tools
-git clone https://example2.com/Cybertechhacks/JSSecretHunter.git ~/tools/JSSecretHunter
+git clone https://github.com/Cybertechhacks/JSSecretHunter.git ~/tools/JSSecretHunter
 cd ~/tools/JSSecretHunter
 python3 -m venv venv
 ./venv/bin/pip install -r requirements.txt

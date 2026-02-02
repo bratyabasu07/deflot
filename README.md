@@ -81,7 +81,7 @@ Unlike traditional tools that load everything into memory, DEFLOT uses a streami
 
 ```bash
 # Clone the repository
-git clone https://example2.com/bratyabasu07/deflot.git
+git clone https://github.com/bratyabasu07/deflot.git
 cd deflot
 
 # Build and install
@@ -92,7 +92,7 @@ go install
 
 ```bash
 # Clone and build
-git clone https://example2.com/bratyabasu07/deflot.git
+git clone https://github.com/bratyabasu07/deflot.git
 cd deflot
 go build -o deflot
 
@@ -103,7 +103,7 @@ go build -o deflot
 ### Option 3: Quick Install (if repository published)
 
 ```bash
-go install example2.com/bratyabasu07/deflot@latest
+go install github.com/bratyabasu07/deflot@latest
 ```
 
 ### Install Companion Tools (Optional)
