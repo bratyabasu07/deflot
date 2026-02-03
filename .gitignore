@@ -32,6 +32,7 @@ targets/
 results/
 deflot_results_*/
 output/
+!internal/output/
 *.log
 
 # Test files
