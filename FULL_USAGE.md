@@ -28,7 +28,7 @@ go build -o deflot
 ./deflot --help
 ```
 
-### Option 3: Direct Install (if published on GitHub)
+### Option 3: Direct Install
 
 ```bash
 # Install latest release

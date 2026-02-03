@@ -100,7 +100,7 @@ go build -o deflot
 ./deflot --help
 ```
 
-### Option 3: Quick Install (if repository published)
+### Option 3: Quick Install
 
 ```bash
 go install github.com/bratyabasu07/deflot@latest
